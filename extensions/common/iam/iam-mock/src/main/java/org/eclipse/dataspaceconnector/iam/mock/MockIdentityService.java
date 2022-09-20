@@ -34,6 +34,7 @@ public class MockIdentityService implements IdentityService {
     public MockIdentityService(TypeManager typeManager, String region) {
         this.typeManager = typeManager;
         this.region = region;
+        // TODO: Add new mock identities like role and same in MockToken class.
     }
 
     @Override

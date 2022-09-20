@@ -2,10 +2,10 @@
   "edctype": "dataspaceconnector:datarequest",
   "protocol": "ids-multipart",
   "assetId": "test-document",
-  "contractId": "1:d4a1334f-d5ee-4016-9d99-9786443e942b",
+  "contractId": "1:3ac8a86c-bdc6-4cea-be3e-4a2307e9c42d",
   "dataDestination": {
     "properties": {
-      "path": "/Users/egekorkan/git/DataSpaceConnector/samples/04.0-file-transfer/msdfs123.json",
+      "path": "/Users/egekorkan/git/DataSpaceConnector/samples/04.0-file-transfer/consumer-customer/motorCover_atConsumer.aas.json",
       "keyName": "keyName",
       "type": "File"
     }

@@ -37,6 +37,8 @@ dependencies {
     testFixturesImplementation("org.assertj:assertj-core:${assertj}")
     testFixturesImplementation("org.junit.jupiter:junit-jupiter-api:${jupiterVersion}")
 
-    testCompileOnly(project(":samples:04.0-file-transfer:consumer"))
+    testCompileOnly(project(":samples:04.0-file-transfer:consumer-customer"))
+    testCompileOnly(project(":samples:04.0-file-transfer:consumer-manufacturer"))
+    testCompileOnly(project(":samples:04.0-file-transfer:consumer-vehicle-competitor"))
     testCompileOnly(project(":samples:04.0-file-transfer:provider"))
 }

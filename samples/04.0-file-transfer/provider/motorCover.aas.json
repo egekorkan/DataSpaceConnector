@@ -1,0 +1,25 @@
+{
+    "$comment":"This is a simplified AAS file and does not conform to the spec.",
+    "partName":"BMW i23 Motor Cover",
+    "serialNumber":"bmw:motorcover:123123",
+    "properties":{
+        "materialProperties":{
+            "type":"plastic",
+            "quality":"low"
+        },
+        "size":{
+            "width":183,
+            "length":220,
+            "unit":"cm"
+        },
+        "appearance":{
+            "color":"blue",
+            "shininess":"medium"
+        }
+    },
+    "cad":"https://example.com/bmw/i23/mc",
+    "price":{
+        "value":2309,
+        "currency":"eth"
+    }
+}
